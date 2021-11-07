@@ -195,11 +195,11 @@ module angle_mask(radius, shoulder, theta, step) {
             square([step / 2, radius]);
             square([radius, step / 2]);
         }
-    }
-    difference() {
-        quarter_circle(radius);
-        rotate([0, 0, -theta]) 
-            angle_slits(radius, shoulder, theta, step);
+        difference() {
+            quarter_circle(radius);
+            rotate([0, 0, -theta]) 
+                angle_slits(radius, shoulder, theta, step);
+        }
     }
 }
 
