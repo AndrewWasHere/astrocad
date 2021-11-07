@@ -13,6 +13,18 @@ OpenSCAD from the command line to create the STL file, bypassing the GUI.
 openscad -o <output_filename>.stl <input_filename>.scad
 ```
 
+## Aperture Reducer
+
+Aperture reducer cap.
+
+## Focusing Masks
+
+Focusing aids for astrophotography.
+
+* Bahtinov Mask
+* Hartmann Mask
+* Y Mask
+
 ## License
 
 All designs in this repository are public domain. Share and enjoy!
