@@ -23,7 +23,7 @@ Focusing aids for astrophotography.
 
 * Bahtinov Mask
 * Hartmann Mask
-* Y Mask
+* Y Mask / Lord Mask
 
 ## Disclaimer
 

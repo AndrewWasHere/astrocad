@@ -25,12 +25,15 @@ The Hartmann mask is considered inferior to the Bahtinov Mask, but it's a
 heckuva lot easier to create than any of the other focusing masks here. And if
 you make the holes triangular, you get diffraction spikes to aid in focusing.
 
-## Y Mask
+## Y (Lord) Mask
 
-A Bahtinov Mask, simplified.
+A Bahtinov Mask, simplified, that doesn't work for everyone.
 
 See the Cloudy Nights forum thread linked in the Bahtinov Mask section.
+or https://stargazerslounge.com/topic/140075-good-by-bahtinov-hello-the-lord-mask-amen/
+or http://www.brayebrookobservatory.org/BrayObsWebSite/HOMEPAGE/forum/Fraunhofer-primer.pdf
 
 The Y Mask is supposed to give similar results to the Bahtinov Mask, while
-allowing more light to pass through.
+allowing more light to pass through. I couldn't get it to work with a 200mm
+camera lens.
 

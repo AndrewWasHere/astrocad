@@ -1,5 +1,5 @@
 /*
-   Y Mask
+   Y (Lord) Mask
    Andrew Lin, November 2021
 */
 
@@ -33,13 +33,14 @@ focal_length = 400;
 theta = 20;
 
 /*
-   The width of smallest line (or slit) your printer can make, in
-   millimeters, without gumming up the slit.
-   This value is probably slightly larger than your print head nozzle
-   diameter. This value is used in computing the Bahtinov mask slit
-   size.
+   The minimum slit width to print in millimeters. This can be the size of a
+   slit your printer can print around without gumming up the slit, or something
+   significantly larger if you want a more robust mask that won't easily break.
+   The minimum value is probably slightly larger than your print head nozzle
+   diameter. This actual width may be slightly larger, based on the step size
+   calculation.
 */
-printer_resolution = 0.5;
+minimum_width = 5;
 
 /*
    Diameter of the thing the mask has to fit over, in millimeters.
@@ -106,11 +107,12 @@ shoulder = min(10, 0.1 * ota_diameter);
    Args:
       s - current step size.
 */
-function step_size(s) = s < 2 * printer_resolution ? 
+function step_size(s) = s < 2 * minimum_width ? 
     step_size(3 * s) : 
     s;
 
-N = 150;
+N = 175;  // Smack in the middle of the range.
+
 /*
    A step includes a slit and a solid. And bar_width is the size of
    a slit.
