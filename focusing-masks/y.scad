@@ -19,7 +19,7 @@ $fn = 100;
    Focal length is the diameter of the main objective multiplied by
    the f-ratio of the OTA. e.g. for an Orion ST80, which has an
    80mm objective, and an f-ratio of 5, the focal length is 400mm.
-   (80mm * 5mm = 400mm). This value is used the computing the
+   (80mm * 5 = 400mm). This value is used the computing the
    thickness of the bars.
 */
 focal_length = 400;
